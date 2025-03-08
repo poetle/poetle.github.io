@@ -3,10 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Page</title>
+    <title>poetle - Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        .post, .research-item, .link-item {
+            margin-bottom: 20px;
+        }
+        img, video {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello World</h1>
-    <p>I'm hosted with GitHub Pages.</p>
+    <header>
+        <h1>Your Name</h1>
+        <p>Welcome to my personal website</p>
+    </header>
+
+    <section id="blog">
+        <h2>Blog Posts</h2>
+        <div class="post">
+            <h3>Blog Post Title 1</h3>
+            <p>Brief description or excerpt of your blog post...</p>
+            <a href="#">Read more</a>
+        </div>
+        <div class="post">
+            <h3>Blog Post Title 2</h3>
+            <p>Brief description or excerpt of your blog post...</p>
+            <a href="#">Read more</a>
+        </div>
+    </section>
+
+    <section id="research">
+        <h2>Research</h2>
+        <div class="research-item">
+            <h3>Research Project 1</h3>
+            <p>Description of your research project...</p>
+            <img src="path/to/your/image.jpg" alt="Research Project 1">
+        </div>
+        <div class="research-item">
+            <h3>Research Project 2</h3>
+            <p>Description of your research project...</p>
+            <video controls>
+                <source src="path/to/your/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <section id="links">
+        <h2>Other Links</h2>
+        <div class="link-item">
+            <h3>Project Website</h3>
+            <p>Description of your project...</p>
+            <a href="#">Visit Project</a>
+            <img src="path/to/your/gif.gif" alt="Project Demo">
+        </div>
+        <div class="link-item">
+            <h3>Social Media</h3>
+            <p>Connect with me on social media...</p>
+            <a href="#">Twitter</a> | <a href="#">LinkedIn</a> | <a href="#">GitHub</a>
+        </div>
+    </section>
 </body>
 </html>
